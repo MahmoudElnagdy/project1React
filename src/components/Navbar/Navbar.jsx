@@ -17,13 +17,13 @@ export default function Navbar() {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ms-auto fw-bold">
       <li className="nav-item  ">
-        <NavLink to={'about'} className="nav-link active  text-light px-4" aria-current="page" href="#">About</NavLink>
+        <NavLink to={'project1React/about'} className="nav-link active  text-light px-4" aria-current="page" href="#">About</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink to={'portfolio'} className="nav-link active  text-light px-4" aria-current="page" href="#">Portfolio</NavLink>
+        <NavLink to={'project1React/portfolio'} className="nav-link active  text-light px-4" aria-current="page" href="#">Portfolio</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink to={'contact'} className="nav-link active  text-light px-4" aria-current="page" href="#">Contact</NavLink>
+        <NavLink to={'project1React/contact'} className="nav-link active  text-light px-4" aria-current="page" href="#">Contact</NavLink>
       </li>
     
     </ul>

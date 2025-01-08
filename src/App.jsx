@@ -11,17 +11,11 @@ import Home from './components/Home/Home'
 let x = createBrowserRouter([
   {path:'' , element:<Layout/> , children: [
     {index:true , element:<Home/>},
-    {path:'about' , element:<About/>},
-    {path:'contact' , element:<Contact/>},
-    {path:'portfolio' , element:<Portfolio/>},
+    {path:'project1React/about' , element:<About/>},
+    {path:'project1React/contact' , element:<Contact/>},
+    {path:'project1React/portfolio' , element:<Portfolio/>},
   ]},
-    
-  
-    
-
 ])
-    
-  
 
 export default function App() {
 
